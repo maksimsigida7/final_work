@@ -28,3 +28,8 @@ string[] LessFiltr(string[] words)
     Array.Resize(ref result, index);
     return result;
 }
+
+// Ввод данных
+string[] arr = { "ghdgy", "kdjskji", "fa", "at", "gGGgg", "12", "144", "freda", "for" };
+PrintArr(arr, message: "Заданый массив: ");
+PrintArr(LessFiltr(arr), message: "Отфильтрованный массив: ");
