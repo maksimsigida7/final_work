@@ -29,7 +29,7 @@ string[] LessFiltr(string[] words)
     return result;
 }
 
-// Ввод данных
+// Ввод данных (переменные вшиты в код)
 string[] arr = { "ghdgy", "kdjskji", "fa", "at", "gGGgg", "12", "144", "freda", "for" };
 PrintArr(arr, message: "Заданый массив: ");
 PrintArr(LessFiltr(arr), message: "Отфильтрованный массив: ");
